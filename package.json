@@ -1,0 +1,14 @@
+{
+    "name": "my-first-web-scraper",
+    "version": "0.0.1",
+    "homepage": "https://github.com/fabiolavdberg/Online-Data-Scraper-Publication",
+    "description": "IK ben dik",
+    "author": "Fabiola van den Berg",
+    "main": "app.js",
+    "scripts": {
+      "start":  "node app.js"
+    },
+    "dependencies": {
+        "crawler": "^1.2.1"
+    }
+}

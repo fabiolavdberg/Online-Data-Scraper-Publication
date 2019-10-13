@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script type="text/javascript" src="friends-output.js"></script>
+
+    <script type="text/javascript" >
+        function loadFRIENDS() {
+            const div = document.getElementById('data');
+
+            for(let i = 0; i < friends_list.length; i++) {
+
+                if(!(friends_list[i] === "undefined")) {
+
+                    img = "<img class='tile' src='" + friends_list[i] + "'>";
+                    div.innerHTML = div.innerHTML + img;
+
+                }
+
+            }
+
+        }
+    </script>
+    <style>
+        img {
+            height: 100px;
+            width: 65px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body onload="loadFRIENDS()">
+<div id="data"></div>
+</body>
+</html>
