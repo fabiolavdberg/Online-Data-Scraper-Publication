@@ -2,35 +2,25 @@
 <html>
 <head>
 
-    <script type="text/javascript" src="friends-output.js"></script>
+    <script type="text/javascript" src="sample.js"></script>
 
     <script type="text/javascript" >
         function loadFRIENDS() {
-            const div = document.getElementById('data');
+            var div = document.getElementById('joey');
 
-            for(let i = 0; i < friends_list.length; i++) {
+            friends_data.JOEY.forEach(function(elem, index){
+              div.innerHTML = div.innerHTML + "<p>" + friends_data.JOEY[index] + "</p>"
 
-                if(!(friends_list[i] === "undefined")) {
+            });
 
-                    img = "<img class='tile' src='" + friends_list[i] + "'>";
-                    div.innerHTML = div.innerHTML + img;
-
-                }
-
-            }
 
         }
-    </script>
-    <style>
-        img {
-            height: 100px;
-            width: 65px;
-            margin: 5px;
-        }
-    </style>
+
+        </script>
+
 
 </head>
 <body onload="loadFRIENDS()">
-<div id="data"></div>
+<div id="joey"></div>
 </body>
 </html>
