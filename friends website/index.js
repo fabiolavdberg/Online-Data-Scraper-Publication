@@ -1,3 +1,13 @@
+
+$(".scrolling-pane").scroll(function(){
+  $(this).find(".Name").css('top', 0 + 'px');
+  $(this).find(".Name").css('position', 'absolute');
+});
+
+
+
+
+
 var spanWhat = document.getElementsByClassName('What');
 var i = 0;
 while(i < spanWhat.length){
@@ -70,7 +80,7 @@ var el = document.querySelector(".74 Yeah.");
 el.addEventListener("click", showImage, false);
 
 }
-}
+
 
 
 // var spanWhat = document.getElementsByClassName('What');

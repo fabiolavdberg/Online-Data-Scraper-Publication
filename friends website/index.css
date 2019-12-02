@@ -30,13 +30,7 @@ body,html {
 
 }
 
-img {
-  margin-top: 15px;
-  margin-left: 30px;
-  width: 80%;
-  background-position: center;
 
-}
 
 
 #scroller {
@@ -68,60 +62,43 @@ img {
 
 
 .Name{
+  position: relative;
   width: 25vw;
-  margin-top: 15px;
-  margin-left: 100px
+  display: inline-block;
+  margin-top: 20px;
   background-color: #fff;
   font-size: 18px;
   font-family: courier;
-  line-height: 57px;
   text-align: center;
+  margin-left: -4px;
+  z-index: 99999;
+  position: absolute;
+}
 
+.spacer {
+  margin-top: 68px;
 }
 
 
-
-#Racheltext1 {
-  position: relative;
-  margin-top: 12px;
-  background-color: #fff;
-  font-size: 20px;
-  line-height: 18px;
-  font-family: courier;
-  text-align: center;
-}
-
-.racheltext{
-  position: relative;
-  margin-top: 12px;
-  margin-left: 20px;
-  font-size: 18px;
-  line-height: 22px;
-  font-family: courier;
-  text-align: center;
-}
-.racheltext:hover{
-color: blue;
-}
-
-.racheltextbutton {
+.textbutton {
   cursor: pointer;
   width: 100%;
   border: none;
   outline: none;
   color: black;
   font-size: 18px;
+  line-height: 30px;
   font-family: courier;
   width: 100%;
   border: none;
   text-align: center;
   outline: none;
 }
-.racheltextbutton:hover{
-color: blue;
+.textbutton:hover{
+colorbackground: yellow;
 }
 
-.contentrachel {
+.contentright {
   /* padding: 0 18px; */
   max-height: 0;
   overflow: hidden;
@@ -138,82 +115,36 @@ color: blue;
 }
 
 
-#rachel {
-  position: absolute;
-  margin: auto;
-  margin-top: 300px;
-  z-index: 99;
-  left: 1%;
-  width: 25vw;
-  display: none;
-  background-position: center;
-
+.contentleft {
+  /* padding: 0 18px; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  /* background-color: #f1f1f1; */
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: courier;
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  text-align: left;
 }
 
-  .monicatext{
-    position: relative;
-    margin-top: 12px;
-    background-color: #fff;
-    font-size: 18px;
-    line-height: 22px;
-    font-family: courier;
-    text-align: center;
-  }
-  .monicatext:hover{
-    color: blue;
-    }
 
-
-  .joeytext{
-    position: relative;
-    margin-top: 12px;
-    background-color: #fff;
-    font-size: 18px;
-    line-height: 22px;
-    font-family: courier;
-    text-align: center;
-  }
-  .joeytext:hover{
-    color: blue;
-    }
-
-
-.chandlertext{
-  position: relative;
-  margin-top: 12px;
-  background-color: #fff;
+.contentcenter {
+  /* padding: 0 18px; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  /* background-color: #f1f1f1; */
+  color: black;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 18px;
   font-family: courier;
+  width: 100%;
+  margin-right: 10px;
+  border: none;
   text-align: center;
 }
-.chandlertext:hover{
-  color: blue;
-  }
-
-
-.phoebetext{
-  position: relative;
-  margin-top: 12px;
-  background-color: #fff;
-  font-size: 18px;
-  line-height: 22px;
-  font-family: courier;
-  text-align: center;
-}
-.phoebetext:hover{
-  color: blue;
-  }
-
-.rosstext{
-  position: relative;
-  margin-top: 12px;
-  background-color: #fff;
-  font-size: 18px;
-  line-height: 22px;
-  font-family: courier;
-  text-align: center;
-}
-.rosstext:hover{
-  color: blue;
-  }
