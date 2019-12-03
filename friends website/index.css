@@ -95,7 +95,7 @@ body,html {
   outline: none;
 }
 .textbutton:hover{
-colorbackground: yellow;
+  /* color: yellow; */
 }
 
 .contentright {
