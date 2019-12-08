@@ -1,0 +1,56 @@
+/* *,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    background-color: white;
+}
+
+/* SCROLLING PANE START */
+
+/* hide the scrollbars */
+/* ::-webkit-scrollbar {
+    display: none;
+}
+
+.scrolling-pane {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 33.4%;
+  margin-left: -4px;
+  overflow: scroll;
+}
+
+/* SCROLLING PANE END */
+
+/* these are just the colors */
+/* .blue-color {
+  background-color: white;
+}
+
+.green-color {
+  background-color: white;
+}
+
+.orange-color {
+  background-color: white;
+} */
+
+/* this is dummy content */
+/* .dummy-content {
+  width: 80%;
+  height: 300px;
+  margin: 10px auto;
+  background-color: #fff;
+  opacity: .5;
+  border:1px solid black;
+  font-size: 40px;
+  font-family: sans-serif;
+  line-height: 300px;
+  text-align: center;
+}  */

@@ -31,8 +31,6 @@ body,html {
 }
 
 
-
-
 #scroller {
   position: absolute;
   height: 100vh;
@@ -93,10 +91,29 @@ body,html {
   border: none;
   text-align: center;
   outline: none;
+  text-transform: lowercase;
+  vertical-align: middle;
 }
 .textbutton:hover{
   /* color: yellow; */
 }
+
+
+/* .textbutton {
+  background-image: linear-gradient(to right, rgba(255, 239, 24, 0) 50%, rgb(255, 253, 43) 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: #222;
+  font-size: 18px;
+  line-height: 30px;
+  transition: background-position 0.5s ease-out;
+}
+.textbutton:hover {
+  background-position: -99.99% 0;
+} */
+
+
+
 
 .contentright {
   /* padding: 0 18px; */
